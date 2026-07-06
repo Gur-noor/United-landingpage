@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/x-icon" href="https://unitedpropertiestru.com/assets/favicon/favicon.ico" />
+<title>Terms of Service — United Properties TRU™</title>
+<meta name="description" content="Terms of Service for United Properties TRU™. Governs your access to and use of the United Properties Tokens website, private-offering inquiry process, and related informational materials." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: "#ffffff",
+          foreground: "#0F172A",
+          secondary: "#F5F6F8",
+          "muted-foreground": "#6A7385",
+          border: "#E5E7EB",
+          "brand-navy": "#0F172A",
+          "brand-navy-deep": "#0B1020",
+          "brand-blue": "#2563EB",
+          "brand-emerald": "#10B981",
+        },
+        fontFamily: {
+          display: ['Source Serif 4', 'Georgia', 'serif'],
+          sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        },
+        borderRadius: { '4xl': '2rem' },
+      },
+    },
+  };
+</script>
+<style>
+  * { border-color: #E5E7EB; }
+  body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+  .font-display { font-family: 'Source Serif 4', 'Georgia', serif; letter-spacing: -0.015em; }
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+  .bg-gradient-navy { background: linear-gradient(180deg, oklch(0.22 0.05 265) 0%, oklch(0.1 0.04 265) 100%); }
+  #site-header.nav-scrolled { background: rgba(255,255,255,0.85); backdrop-filter: blur(16px); border-bottom: 1px solid #E5E7EB; }
+  html { scroll-behavior: smooth; }
+  #menu-toggle.menu-open .menu-bar:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+  #menu-toggle.menu-open .menu-bar:nth-child(2) { opacity: 0; }
+  #menu-toggle.menu-open .menu-bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+  .coin3d { perspective: 900px; }
+  .coin3d .coin-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; animation: coin-spin 7s linear infinite; }
+  .coin3d .coin-face { position: absolute; inset: 0; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+  .coin3d .coin-face img { width: 100%; height: 100%; object-fit: contain; }
+  .coin3d .coin-back { transform: rotateY(180deg); }
+  @keyframes coin-spin { from { transform: rotateY(0deg) } to { transform: rotateY(360deg) } }
+  @media (prefers-reduced-motion: reduce) { .coin3d .coin-inner { animation: none; } }
+
+  /* Legal page prose */
+  .legal-prose h2 { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.125rem; font-weight: 600; color: #0F172A; margin-top: 2.5rem; margin-bottom: 0.75rem; padding-bottom: 0.5rem; border-bottom: 1px solid #E5E7EB; }
+  .legal-prose h3 { font-size: 0.9375rem; font-weight: 600; color: #0F172A; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+  .legal-prose p { font-size: 0.9375rem; line-height: 1.75; color: #374151; margin-bottom: 1rem; }
+  .legal-prose ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
+  .legal-prose li { font-size: 0.9375rem; line-height: 1.75; color: #374151; margin-bottom: 0.25rem; }
+  .toc-link { display: block; padding: 0.35rem 0; font-size: 0.875rem; color: #6A7385; text-decoration: none; transition: color 0.15s; border-left: 2px solid transparent; padding-left: 0.75rem; }
+  .toc-link:hover { color: #0F172A; border-left-color: #2563EB; }
+</style>
+</head>
+<body class="bg-background text-foreground">
+
+<!-- ───────── Nav ───────── -->
+<header id="site-header" class="fixed left-0 right-0 top-0 z-50 transition-all duration-300 bg-white border-b border-border">
+  <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+    <a href="index.html" class="flex items-center gap-3 flex-shrink-0">
+      <div class="coin3d h-9 w-9 flex-shrink-0">
+        <div class="coin-inner" style="animation-duration:8s">
+          <div class="coin-face coin-front"><img src="images/3BB25375D22673730C5C-removebg-preview.png" alt="" width="36" height="36" /></div>
+          <div class="coin-face coin-back"><img src="images/3BB7BFA6D6151321B41C-removebg-preview.png" alt="" width="36" height="36" /></div>
+        </div>
+      </div>
+      <span class="font-display text-base font-medium tracking-tight" style="color:#0F172A;font-family:'Montserrat',sans-serif;">United Properties TRU™</span>
+    </a>
+    <nav class="hidden items-center gap-5 text-sm text-muted-foreground xl:flex">
+      <a class="hover:text-foreground transition-colors" href="index.html">Home</a>
+      <a class="hover:text-foreground transition-colors" href="index.html#offering">Current Offering</a>
+      <a class="hover:text-foreground transition-colors" href="index.html#platform">Platform</a>
+      <a class="hover:text-foreground transition-colors" href="index.html#documents">Documents</a>
+      <a class="hover:text-foreground transition-colors" href="index.html#faq">Disclosures</a>
+      <a class="hover:text-foreground transition-colors" href="index.html#contact">Contact</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="index.html#contact" class="rounded-full bg-brand-navy px-4 py-2 text-sm font-medium text-white hover:bg-brand-navy-deep transition hidden sm:inline-flex">Request Portal Access</a>
+      <button id="menu-toggle" class="xl:hidden flex flex-col justify-center items-center gap-1.5 w-9 h-9 rounded-lg border border-border bg-white/80 backdrop-blur-sm" aria-label="Open menu" aria-expanded="false">
+        <span class="menu-bar block h-0.5 w-5 bg-brand-navy rounded transition-all duration-300"></span>
+        <span class="menu-bar block h-0.5 w-5 bg-brand-navy rounded transition-all duration-300"></span>
+        <span class="menu-bar block h-0.5 w-5 bg-brand-navy rounded transition-all duration-300"></span>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden xl:hidden bg-white border-t border-border shadow-lg">
+    <nav class="mx-auto max-w-7xl px-6 py-4 flex flex-col gap-1 text-sm">
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html">Home</a>
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html#offering">Current Offering</a>
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html#platform">Platform</a>
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html#documents">Documents</a>
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html#faq">Disclosures</a>
+      <a class="px-3 py-2.5 rounded-lg hover:bg-secondary text-muted-foreground hover:text-foreground transition-colors" href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="pt-24 pb-24">
+  <div class="mx-auto max-w-7xl px-6">
+
+    <!-- Page header -->
+    <div class="max-w-3xl mb-12">
+      <div class="inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground mb-4">Legal</div>
+      <h1 class="font-display text-4xl font-semibold tracking-tight text-foreground mb-3">Terms of Service</h1>
+      <p class="text-sm text-muted-foreground">Effective Date: March 4, 2026 &nbsp;·&nbsp; Last Updated: March 4, 2026</p>
+      <div class="mt-4 rounded-xl border border-amber-200 bg-amber-50 px-5 py-4">
+        <p class="text-sm font-medium text-amber-900">Important Notice</p>
+        <p class="mt-1 text-sm text-amber-800 leading-relaxed">This website is for informational purposes only. It does not replace definitive offering materials. Any securities offering will be made only through formal offering documents and in compliance with applicable laws and regulations.</p>
+      </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-12">
+
+      <!-- Sidebar TOC -->
+      <aside class="lg:w-64 xl:w-72 shrink-0">
+        <div class="lg:sticky lg:top-24">
+          <p class="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-3">Table of Contents</p>
+          <nav class="flex flex-col">
+            <a href="#acceptance" class="toc-link">1. Acceptance of Terms</a>
+            <a href="#informational" class="toc-link">2. Informational Use Only</a>
+            <a href="#no-advice" class="toc-link">3. No Advice</a>
+            <a href="#eligibility" class="toc-link">4. Eligibility and Jurisdiction</a>
+            <a href="#payments" class="toc-link">5. Payments</a>
+            <a href="#risk" class="toc-link">6. Risk Acknowledgment</a>
+            <a href="#third-party" class="toc-link">7. Third-Party Services</a>
+            <a href="#ip" class="toc-link">8. Intellectual Property</a>
+            <a href="#acceptable-use" class="toc-link">9. Acceptable Use</a>
+            <a href="#privacy" class="toc-link">10. Privacy</a>
+            <a href="#disclaimers" class="toc-link">11. Disclaimers</a>
+            <a href="#liability" class="toc-link">12. Limitation of Liability</a>
+            <a href="#indemnification" class="toc-link">13. Indemnification</a>
+            <a href="#termination" class="toc-link">14. Suspension and Termination</a>
+            <a href="#changes" class="toc-link">15. Changes to the Site and Terms</a>
+            <a href="#governing-law" class="toc-link">16. Governing Law; Dispute Resolution</a>
+            <a href="#miscellaneous" class="toc-link">17. Miscellaneous</a>
+            <a href="#contact" class="toc-link">18. Contact</a>
+          </nav>
+        </div>
+      </aside>
+
+      <!-- Content -->
+      <div class="flex-1 min-w-0">
+        <div class="legal-prose">
+
+          <h2 id="acceptance">1. Acceptance of Terms</h2>
+          <p>By accessing or using this website, you agree to these Terms of Service. If you do not agree, do not use the Site.</p>
+
+          <h2 id="informational">2. Informational Use Only</h2>
+          <p>The Site provides general information about United Properties Tokens and its concepts, including a private offering inquiry process and a real-estate acquisition strategy. The Site is not intended to provide a complete description of any offering.</p>
+          <p><strong>No offer.</strong> No content on the Site replaces formal offering materials for any security, token, or financial instrument in any jurisdiction.</p>
+
+          <h2 id="no-advice">3. No Advice</h2>
+          <p>Nothing on the Site constitutes financial, investment, legal, tax, or accounting advice. You should consult your own professional advisors.</p>
+
+          <h2 id="eligibility">4. Eligibility and Jurisdiction</h2>
+          <ul>
+            <li>You must be at least 18 years old and have legal capacity to form a binding agreement.</li>
+            <li>You are responsible for determining whether your access to and use of the Site is permitted under applicable laws.</li>
+            <li>Participation may be restricted or prohibited in certain jurisdictions. KYC/AML, accredited-investor verification, and other eligibility checks may apply.</li>
+          </ul>
+
+          <h2 id="payments">5. Payments</h2>
+          <h3>Payment processors</h3>
+          <p>If a future transaction is accepted through a third-party payment or escrow provider, you are subject to that provider's terms. United Properties Tokens does not control those services.</p>
+          <h3>Reconciliation</h3>
+          <p>You are responsible for providing accurate contact information and transaction identifiers so payments can be matched to your submission.</p>
+          <h3>No refunds</h3>
+          <p>Except where required by applicable law or explicitly stated in definitive written terms for a specific transaction, all payments may be final and non-refundable.</p>
+
+          <h2 id="risk">6. Risk Acknowledgment</h2>
+          <p>You acknowledge that private securities, digital assets, and related projects involve substantial risk, including the potential loss of all funds. Risks include volatility, illiquidity, regulatory changes, cybersecurity incidents, software vulnerabilities, and operational delays. Real-estate strategies can underperform, experience vacancies, incur unexpected expenses, or face regulatory restrictions.</p>
+
+          <h2 id="third-party">7. Third-Party Services</h2>
+          <p>The Site may reference or integrate third-party services such as payment providers, wallet providers, hosting, analytics, blockchain networks, and other tools. We are not responsible for those services, including their availability, performance, security, or data practices.</p>
+
+          <h2 id="ip">8. Intellectual Property</h2>
+          <p>All Site content, including text, graphics, logos, designs, trademarks, and materials, is owned by or licensed to United Properties Tokens and protected by intellectual property laws. You may not copy, modify, distribute, or exploit Site content without prior written permission, except for personal, non-commercial use.</p>
+
+          <h2 id="acceptable-use">9. Acceptable Use</h2>
+          <p>You may not:</p>
+          <ul>
+            <li>Use the Site for unlawful purposes or to violate any applicable laws.</li>
+            <li>Attempt to gain unauthorized access to accounts, systems, or networks.</li>
+            <li>Introduce malware, scrape the Site at scale, disrupt the Site, or circumvent security features.</li>
+            <li>Misrepresent your identity or provide false information in form submissions.</li>
+          </ul>
+
+          <h2 id="privacy">10. Privacy</h2>
+          <p>Your use of the Site is also governed by the <a href="privacy.html" class="text-brand-blue hover:underline">Privacy Policy</a>.</p>
+
+          <h2 id="disclaimers">11. Disclaimers</h2>
+          <h3>As-is</h3>
+          <p>The Site and all content are provided "as is" and "as available" without warranties of any kind, whether express or implied.</p>
+          <h3>No guarantee</h3>
+          <p>We do not guarantee the accuracy, completeness, or timeliness of Site content. The project may change, pause, or discontinue at any time.</p>
+
+          <h2 id="liability">12. Limitation of Liability</h2>
+          <p>To the maximum extent permitted by law, United Properties Tokens and its affiliates, owners, managers, employees, contractors, and service providers will not be liable for any indirect, incidental, consequential, special, punitive, or exemplary damages, or for any loss of profits, data, goodwill, or other intangible losses arising from or related to your use of the Site or participation in any transaction.</p>
+
+          <h2 id="indemnification">13. Indemnification</h2>
+          <p>You agree to indemnify and hold harmless United Properties Tokens and its affiliates, owners, managers, employees, contractors, and service providers from any claims, liabilities, damages, losses, and expenses arising from your use of the Site, your violation of these Terms, or your violation of any rights of another.</p>
+
+          <h2 id="termination">14. Suspension and Termination</h2>
+          <p>We may suspend or terminate access to the Site at any time, with or without notice, for any reason, including suspected misuse, fraud, or legal/compliance concerns.</p>
+
+          <h2 id="changes">15. Changes to the Site and Terms</h2>
+          <p>We may modify or update the Site and these Terms at any time. Continued use of the Site after changes become effective constitutes acceptance of the updated Terms.</p>
+
+          <h2 id="governing-law">16. Governing Law; Dispute Resolution</h2>
+          <p>These Terms will be governed by the laws applicable to the entity operating the Site, without regard to conflict-of-law rules. Any dispute arising out of or relating to these Terms or the Site shall be resolved in a competent court of jurisdiction determined by the operator of the Site, unless otherwise required by applicable law.</p>
+
+          <h2 id="miscellaneous">17. Miscellaneous</h2>
+          <ul>
+            <li><strong>Severability:</strong> If any provision is held unenforceable, the remaining provisions remain in effect.</li>
+            <li><strong>No waiver:</strong> Failure to enforce any provision is not a waiver.</li>
+            <li><strong>Entire agreement:</strong> These Terms and any referenced policies are the entire agreement regarding Site use.</li>
+          </ul>
+
+          <h2 id="contact">18. Contact</h2>
+          <p>Questions about these Terms: <a href="mailto:Support@UnitedPropertiesTRU.com" class="text-brand-blue hover:underline">Support@UnitedPropertiesTRU.com</a></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ───────── Footer ───────── -->
+<footer class="bg-gradient-navy text-white">
+  <div class="mx-auto max-w-7xl px-6 py-16">
+    <div class="grid grid-cols-2 gap-10 sm:grid-cols-4">
+      <div class="col-span-2 sm:col-span-1">
+        <a href="index.html" class="flex items-center gap-2">
+          <span class="font-display text-sm font-medium" style="font-family:'Montserrat',sans-serif;">United Properties TRU™</span>
+        </a>
+        <p class="mt-3 text-xs leading-relaxed text-white/50">Tokenized Residential Rental Property Platform</p>
+      </div>
+      <div>
+        <div class="text-xs font-medium uppercase tracking-[0.18em] text-white/50">Legal</div>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/80">
+          <li><a href="disclosures.html" class="hover:text-white">Disclosures</a></li>
+          <li><a href="privacy.html" class="hover:text-white">Privacy Policy</a></li>
+          <li><a href="terms.html" class="text-white font-medium">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="text-xs font-medium uppercase tracking-[0.18em] text-white/50">Platform</div>
+        <ul class="mt-4 space-y-2.5 text-sm text-white/80">
+          <li><a href="index.html#platform" class="hover:text-white">Platform</a></li>
+          <li><a href="index.html#documents" class="hover:text-white">Documents</a></li>
+          <li><a href="index.html#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-16 border-t border-white/10 pt-8">
+      <div class="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-white/40">
+        <div>© <span id="year"></span> United Properties TRU™. All rights reserved. · Missouri Limited Partnership</div>
+        <div class="flex gap-4">
+          <a href="privacy.html" class="hover:text-white/70">Privacy Policy</a>
+          <a href="terms.html" class="hover:text-white/70">Terms of Service</a>
+          <a href="disclosures.html" class="hover:text-white/70">Disclosures</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  function closeMobileMenu() {
+    document.getElementById('mobile-menu').classList.add('hidden');
+    document.getElementById('menu-toggle').setAttribute('aria-expanded', 'false');
+    document.getElementById('menu-toggle').classList.remove('menu-open');
+  }
+  document.getElementById('menu-toggle').addEventListener('click', function() {
+    var menu = document.getElementById('mobile-menu');
+    var isOpen = !menu.classList.contains('hidden');
+    if (isOpen) { closeMobileMenu(); }
+    else {
+      menu.classList.remove('hidden');
+      this.setAttribute('aria-expanded', 'true');
+      this.classList.add('menu-open');
+    }
+  });
+</script>
+</body>
+</html>
